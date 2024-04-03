@@ -1,0 +1,13 @@
+server:
+  port: 3033
+
+spring:
+  datasource:
+    username: ${zeus.postgresql.username}
+    password: ${zeus.postgresql.password}
+    url: jdbc:postgresql://resource.leons-tokyo.top:5432/zeus_user
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true

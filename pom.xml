@@ -6,7 +6,6 @@
         <groupId>jp.tokyo.leon</groupId>
         <artifactId>zeus-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-
     </parent>
     <artifactId>zeus-user</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -16,37 +15,13 @@
     <modules>
         <module>zeus-user-feign</module>
         <module>zeus-user-rest</module>
+        <module>zeus-user-db</module>
+        <module>zeus-user-service</module>
+        <module>zeus-user-api</module>
     </modules>
 
     <properties>
         <java.version>21</java.version>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-        </dependency>
-
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
