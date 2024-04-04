@@ -5,7 +5,7 @@ spring:
   datasource:
     username: ${zeus.postgresql.username}
     password: ${zeus.postgresql.password}
-    url: jdbc:postgresql://resource.leons-tokyo.top:5432/zeus_user
+    url: ${zeus.postgresql.url}
     driver-class-name: org.postgresql.Driver
   jpa:
     database: postgresql
