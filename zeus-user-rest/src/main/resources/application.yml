@@ -11,3 +11,12 @@ spring:
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
+  application:
+    name: zeus-user
+  cloud:
+      nacos:
+        discovery:
+          server-addr: resource.leons-tokyo.top:8848
+          username: ${zeus.nacos.username}
+          password: ${zeus.nacos.password}
+          group: zeus
