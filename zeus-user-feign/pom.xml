@@ -22,6 +22,20 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
+
+
+        <!-- 内部模块 -->
+        <dependency>
+            <groupId>jp.tokyo.leon</groupId>
+            <artifactId>zeus-common-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>jp.tokyo.leon</groupId>
+            <artifactId>zeus-user-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>
